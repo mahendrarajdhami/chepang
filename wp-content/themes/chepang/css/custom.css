@@ -1,0 +1,100 @@
+/*#main-menu config - instance specific stuff not covered in the theme*/
+#main-menu {
+  position:relative;
+  z-index:9999;
+  width:auto; margin-left:15px;
+}
+#main-menu ul {
+  width:12em; /* fixed width only please - you can use the "subMenusMinWidth"/"subMenusMaxWidth" script options to override this if you like */
+}
+
+.modal-body {
+          padding:5px !important;
+      }
+.modal-content {
+    border-radius:0;
+}
+.modal-dialog img {
+    text-align:center;
+    margin:0 auto;
+}
+.controls{          
+  width:50px;
+  display:block;
+  font-size:11px;
+  padding-top:8px;
+  font-weight:bold;          
+}
+.next {
+  float:right;
+  text-align:right;
+}
+/*override modal for demo only*/
+.modal-dialog {
+    max-width:500px;
+    padding-top: 90px;
+}
+@media screen and (min-width: 768px){
+    .modal-dialog {
+        width:500px;
+        padding-top: 90px;
+    }          
+}
+@media screen and (max-width:1500px){
+    #ads {
+        display:none;
+    }
+}
+.footer_main{
+  position:absolute;
+  bottom:0;
+}
+/*carousel cs*/
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+  float:left;
+}
+/*gallery css*/
+.gallery_box{
+  float:left;
+}
+.gallery_box li{
+  float:left;
+  padding:0px !important;
+}
+.gallery_detail_box{
+  float:none !important;
+  margin-bottom: 5px;
+}
+.gallery_box li img{
+  float:none !important;
+}
+.album_title{
+  font-size : 16px;
+}
+
+.gllr_image_row{
+  clear:none !important;
+}
+.infopos ul li a{
+  color:#fff;
+}
+
+.return_link{
+  margin-top:10px;
+  font-size: 16px;
+}
+/*for menu*/
+#main-menu {
+  position:relative;
+  z-index:9999;
+  width:auto; margin-left:15px;
+}
+#main-menu ul {
+  width:12em; /* fixed width only please - you can use the "subMenusMinWidth"/"subMenusMaxWidth" script options to override this if you like */
+}

@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+ font-family:'mark_simonson_-_proxima_nova_alt_bold-webfont';
+ src: url('../fonts/mark_simonson_-_proxima_nova_alt_bold-webfont.eot');
+ src: local('☺'), url('../fonts/mark_simonson_-_proxima_nova_alt_bold-webfont.woff') format('woff'),  url('../fonts/mark_simonson_-_proxima_nova_alt_bold-webfont.ttf') format('truetype'),  url('../fonts/mark_simonson_-_proxima_nova_alt_bold-webfont.svg#webfont09a50pYu') format('svg');
+ font-weight: normal;
+ font-style: normal;
+ font-stretch:normal;
+}
+
+@font-face {
+ font-family:'proximanova-regular-webfont';
+ src: url('../fonts/proximanova-regular-webfont.eot');
+ src: local('☺'), url('../fonts/proximanova-regular-webfont.woff') format('woff'),  url('../fonts/proximanova-regular-webfont.ttf') format('truetype'),  url('../fonts/proximanova-regular-webfont.svg#webfont09a50pYu') format('svg');
+ font-weight: normal;
+ font-style: normal;
+ font-stretch:normal;
+}
+
+@font-face {
+ font-family:'OpenSans-Semibold_0';
+ src: url('../fonts/OpenSans-Semibold_0.eot');
+ src: local('☺'), url('../fonts/OpenSans-Semibold_0.woff') format('woff'),  url('../fonts/OpenSans-Semibold_0.ttf') format('truetype'),  url('../fonts/OpenSans-Semibold_0.svg#webfont09a50pYu') format('svg');
+ font-weight: normal;
+ font-style: normal;
+ font-stretch:normal;
+}
+
+@font-face {
+ font-family:'BoltonBoldItalic';
+ src: url('../fonts/BoltonBoldItalic.eot');
+ src: local('☺'), url('../fonts/BoltonBoldItalic.woff') format('woff'),  url('../fonts/BoltonBoldItalic.ttf') format('truetype'),  url('../fonts/BoltonBoldItalic.svg#webfont09a50pYu') format('svg');
+ font-weight: normal;
+ font-style: normal;
+ font-stretch:normal;
+}
+
+body{ background:#fff; margin:0; padding:0; height:100%; width:100%;}
+header{display:block;}
+header .top{ width:100%; min-height:53px; display:block; background:url(../images/topbg.png) repeat-x;}
+header .top p{ padding:10px 0 0 0; font-family:mark_simonson_-_proxima_nova_alt_bold-webfont; font-size:14px; margin-left:10px; }
+header .top ul.list-inline li{ margin:0 0 0 -3px; padding:0;}
+#logo{ display:block; float:left; margin:10px 0 10px 0; padding:0;  height:70px;}
+.webfont{ font-family:OpenSans-Semibold_0;}
+.headercaption{ font-style:italic; font-size:22px; font-weight: bold; text-transform:capitalize; margin:0; color:/*#214a9e*/#000; text-align:center; font-family: BoltonBoldItalic;}
+.voffset-10{ padding-top:10px;}
+.voffset-20{ padding-top:20px;}
+.voffset-30{ padding-top:30px;}
+.voffset-40{ padding-top:40px;}
+
+.voffset-bottom10{ padding-top:10px;}
+.voffset-bottom20{ padding-top:20px;}
+.voffset-bottom30{ padding-top:30px;}
+.voffset-bottom40{ padding-top:40px;}
+.offset0{margin:0;}
+.left10{ margin-left:10px;}
+.left20{ margin-left:20px;}
+.right10{margin-right:10px;}
+.left30{ margin-left:30px;}
+.left40{ margin-left:40px;}
+.float{float:left;}
+.float1{ float:right;}
+
+.TOT_on_Social_Accountability_and_Community_Mobi {
+  font-size: 48.333px;
+  font-family: "Myriad Pro";
+  color: rgb( 25, 67, 155 );
+  font-style: italic;
+  line-height: 1.744;
+  text-align: left;
+  text-shadow: 0.5px 0.866px 1px rgb( 0, 1, 1 );
+  
+}
+
+/*.more_1 {
+  border-radius: 3px; border-bottom:3px solid #232323; display:block; margin:auto; margin-top:10px; text-align:center; color:#fff; line-height:45px; vertical-align:middle;
+  background-color: rgb( 81, 124, 212 );
+  
+  width: 147px;
+  height: 45px;
+  
+}*/
+
+.more_1 {
+  border-radius: 3px; display:block; margin:auto; margin-top:0px; margin-bottom:0px; text-align:center; color:#7192D6; line-height:30px; vertical-align:middle;
+}
+.more_1:hover{ color:#000;}
+
+.heading{font: normal 18px "Myriad Pro"; color:#000; text-align:center; border-bottom:1px solid #9F9F9F; display:block; text-transform:uppercase; width:100%; padding:0 0 3px 0; margin:0 0 0px 0;}
+.heading span{ position:relative; }
+.heading span:before   {
+  content : "";
+  position: absolute;
+  top:2px;
+  left    : 24px;
+  bottom  : 0;
+  height  : 3px;
+  width   : 45%;  /* or 100px */
+  border-bottom:3px solid #517cd4; padding:10px 0 0 0; margin:10px 0 0 0;}
+  
+  .heading span:after   {
+  content : "";
+  position: absolute;
+  top:2px;
+  right    : 24px;
+  bottom  : 0;
+  height  : 3px;
+  width   : 45%;  /* or 100px */
+  border-bottom:3px solid #517cd4; padding:10px 0 0 0; margin:10px 0 0 0;}
+  
+  .galfig{ display:block; background:#517cd4; padding:10px; color:#fff; border-radius:0 0 7px 7px; min-height:60px;}
+ul.homgal li img{ cursor:pointer;} 
+ul.anounc li a{ color:#2f2f2f;} 
+ul.anounc li a:hover{text-decoration:none;}
+ul.anounc li {border-bottom:1px solid #c2c2c2; padding:5px 0 5px 0;}
+ul.anounc li span{ display:block; font-style:italic; font-size:11px; padding:5px 0 0 0;}
+
+#main-menu{ display:block;
+background: rgba(113,146,214,1);
+background: -moz-linear-gradient(left, rgba(113,146,214,1) 0%, rgba(128,163,234,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(113,146,214,1)), color-stop(100%, rgba(128,163,234,1)));
+background: -webkit-linear-gradient(left, rgba(113,146,214,1) 0%, rgba(128,163,234,1) 100%);
+background: -o-linear-gradient(left, rgba(113,146,214,1) 0%, rgba(128,163,234,1) 100%);
+background: -ms-linear-gradient(left, rgba(113,146,214,1) 0%, rgba(128,163,234,1) 100%);
+background: linear-gradient(to right, rgba(113,146,214,1) 0%, rgba(128,163,234,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7192d6', endColorstr='#80a3ea', GradientType=1 );
+border-radius:8px 8px 0 0;}
+
+.ilgal figure{ display:inline-table;}
+.ilgal figure img{background:#fff; padding:5px; border: 1px solid #d4d4d4;}
+
+
+footer{ min-height:80px; width:100%; color:#fff;}
+.foot_top{ background: #517cd4 url(../images/foottop.jpg) repeat-x top left; display:block; width:100%; }
+.foot_bottom{ width:100%; background:#4F4F4F; padding:10px 0 0 0;}
+footer p{ padding:10px 0 0 0;}
+.foot_bottom a{color:#fff;}
