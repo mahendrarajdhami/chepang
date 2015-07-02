@@ -98,3 +98,24 @@
 #main-menu ul {
   width:12em; /* fixed width only please - you can use the "subMenusMinWidth"/"subMenusMaxWidth" script options to override this if you like */
 }
+
+  /*for report table*/
+  .report_table{
+    border-collapse: collapse;
+  } 
+  .report_table .action-section{
+    text-align: center;
+  }
+  .report_table tr:nth-child(2n) td{
+    background-color: #F4F4F4;
+  }
+  .reportentry{
+    padding-top:0px;
+  }
+  .report_table a:hover{
+    color:#737272;
+    transition: all 0.3s ease-out 0s;
+  }
+  .report_table a{
+    transition: all 0.3s ease-out 0s;
+  }

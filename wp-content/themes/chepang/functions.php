@@ -12,6 +12,11 @@
   add_action('after_setup_theme', 'chepang_setup');
   function chepang_setup(){
     load_theme_textdomain('chepang', get_template_directory() . '/languages');
+    //post thumbnail support of theme
+    if (function_exists('add_theme_support')) {
+      add_theme_support('post-thumbnails');
+      add_image_size('print-feature',300,225,true);
+    }
   }
   //give  short title of post page
   function trimed_title($after = '', $length, $content = null) {
@@ -48,10 +53,6 @@
     return $cat->slug;
    } 
    
-  }
-  //post thumbnail support of theme
-  if (function_exists('add_theme_support')) {
-    // add_image_size('edit-room-slider',100,100,true);
   }
 
   /*@mahen*/
